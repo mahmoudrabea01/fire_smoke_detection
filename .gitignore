@@ -1,0 +1,39 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and generated data
+data/raw/
+data/processed/
+
+# YOLO checkpoints and training/inference artifacts
+*.pt
+*.onnx
+*.engine
+runs/
+outputs/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
