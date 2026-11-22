@@ -26,7 +26,7 @@ data/processed/
 *.onnx
 *.engine
 runs/
-outputs/
+
 
 # Logs and temporary files
 *.log
